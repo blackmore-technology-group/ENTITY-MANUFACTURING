@@ -1,0 +1,28 @@
+{
+  "external_standards_are_mapped_not_redefined": true,
+  "mappings": [
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "BrowseName": "descriptor.opcua_browse_name",
+        "DataType": "descriptor.opcua_data_type",
+        "NodeId": "descriptor.opcua_node_id"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "OPC-UA"
+    },
+    {
+      "external_standard_not_redefined": true,
+      "field_map": {
+        "assetInformation.globalAssetId": "descriptor.global_asset_id",
+        "id": "descriptor.aas_id",
+        "idShort": "descriptor.aas_id_short"
+      },
+      "mapping_version": "1.0",
+      "normative_equivalence_claimed": false,
+      "standard": "ASSET-ADMINISTRATION-SHELL"
+    }
+  ],
+  "package": "manufacturing"
+}

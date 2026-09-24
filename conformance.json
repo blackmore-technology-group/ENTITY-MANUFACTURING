@@ -1,0 +1,27 @@
+{
+  "core_semantics_changed": false,
+  "invalid": [
+    {
+      "asset_kind": "machine",
+      "configuration": {},
+      "expected_valid": false
+    }
+  ],
+  "profile_stack": [
+    "entity-profile:global@1.0",
+    "entity-profile:manufacturing@1.0"
+  ],
+  "schema": "entity-v3-industry-package-conformance-v1",
+  "valid": [
+    {
+      "asset_kind": "machine",
+      "configuration": {
+        "asset_namespace": "CONFIGURE-ME",
+        "authority_source": "CONFIGURE-ME",
+        "jurisdiction": "CONFIGURE-ME",
+        "organization": "Example Organization"
+      },
+      "expected_valid": true
+    }
+  ]
+}

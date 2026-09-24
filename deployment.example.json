@@ -1,0 +1,11 @@
+{
+  "asset_kind": "machine",
+  "configuration": {
+    "asset_namespace": "CONFIGURE-ME",
+    "authority_source": "CONFIGURE-ME",
+    "jurisdiction": "CONFIGURE-ME",
+    "organization": "Example Organization"
+  },
+  "note": "Replace CONFIGURE-ME values with organization-specific facts before deployment.",
+  "package": "manufacturing"
+}
