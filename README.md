@@ -1,18 +1,20 @@
 # ENTITY-MANUFACTURING
 
-**ENTITY v3.4.0 executable Manufacturing implementation package.**
+**Sealed ENTITY v3.4.0 Manufacturing implementation package, evaluated in the current ENTITY v3.4.2 ecosystem.**
 
-**Current core compatibility:** ENTITY v3.4.1 — Protocol Origin Lineage & Sovereign User Bootstrap. The sealed domain-package payload remains v3.4.0 and was requalified unchanged against v3.4.1.
+**Current canonical core release:** [ENTITY v3.4.2 — Canonical BTDU Release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.2).
+
+The sealed domain-package payload in this repository remains the historical v3.4.0 package. Its recorded package-specific requalification against v3.4.1 remains historical evidence; this README does not rewrite that evidence into a new v3.4.2 package qualification. The current v3.4.2 adoption path is open for clean-clone external evaluation.
 
 This repository configures the **one ENTITY Global Passport** for manufacturing and industrial workflows. It does not define a separate passport protocol and does not modify ENTITY core semantics.
 
-[ENTITY](https://github.com/blackmore-technology-group/ENTITY) · [v3.4.1 core release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.1) · [Global Passport documentation](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/GLOBAL_PASSPORT.md) · [Domain packages](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/v3.4/DOMAIN_PACKAGES.md)
+[ENTITY](https://github.com/blackmore-technology-group/ENTITY) · [v3.4.2 release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.2) · [ENTITY documentation](https://blackmore-technology-group.github.io/ENTITY-DOCS/) · [Manufacturing domain documentation](https://blackmore-technology-group.github.io/ENTITY-DOCS/domains/manufacturing.html) · [Domain-package evaluation task](https://github.com/blackmore-technology-group/ENTITY/issues/46)
 
 ## What this package is for
 
 Use ENTITY-MANUFACTURING as the starting point when you need a governed passport and continuous-provenance layer around industrial assets, components, production records, telemetry or derived outputs while keeping authority, rights, evidence and custody explicit.
 
-The v3.4 package includes mappings for **OPC UA** and **Asset Administration Shell (AAS)**. Those mappings describe correspondence; ENTITY does not redefine the external standards.
+The sealed package includes mappings for **OPC UA** and **Asset Administration Shell (AAS)**. Those mappings describe correspondence; ENTITY does not redefine the external standards.
 
 Typical evaluation paths include:
 
@@ -42,21 +44,25 @@ Select package → configure organization facts → connect systems/data → ing
 python tools/verify_package.py
 ```
 
-The verifier checks the repository inventory and the package/source-release binding.
+The verifier checks repository inventory and the sealed package/source-release binding. A successful package verification does not, by itself, establish a new v3.4.2 qualification claim.
 
-## Release binding
+## Sealed package provenance
 
 - Core source: `blackmore-technology-group/ENTITY` PR #41
 - Source head: `2d7529fbadb4dd04840d62b751294bf9a7f70ed5`
 - Release snapshot: `3ff0e51ca2daabf50bc517e9c6e3438e8c150f1560cca6c99621621e3c855a90`
 - Package SHA-256: `bc29a0de024cea22552078ff1913fa3df2b189436cb853cc2f4e08974325c4bc`
 
-## Go deeper
+These values describe the sealed historical package payload and should not be rewritten merely because the current core release advances.
 
-- [ENTITY v3.4.1 core](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.1)
-- [Developer portal](https://github.com/blackmore-technology-group/ENTITY/blob/main/DEVELOPERS.md)
-- [Engineering evidence](https://github.com/blackmore-technology-group/ENTITY/blob/main/docs/ENGINEERING_EVIDENCE.md)
-- [Open contributor tasks](https://github.com/blackmore-technology-group/ENTITY/issues?q=is%3Aissue+is%3Aopen)
+## Current evaluation path
+
+- [ENTITY v3.4.2 core release](https://github.com/blackmore-technology-group/ENTITY/releases/tag/v3.4.2)
+- [Manufacturing domain manual](https://blackmore-technology-group.github.io/ENTITY-DOCS/domains/manufacturing.html)
+- [Data lineage vs provenance vs rights](https://blackmore-technology-group.github.io/ENTITY-DOCS/guides/data-lineage-vs-provenance-rights.html)
+- [Standards mapping](https://blackmore-technology-group.github.io/ENTITY-DOCS/developer/standards-mapping.html)
+- [Try one current domain-package path from a clean clone](https://github.com/blackmore-technology-group/ENTITY/issues/46)
+- [External verification challenge](https://github.com/blackmore-technology-group/ENTITY/issues/55)
 
 ## Truth and compliance boundary
 
